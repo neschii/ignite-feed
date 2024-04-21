@@ -1,3 +1,4 @@
+import { Avatar } from './Avatar'
 import { Comment } from './Comment'
 import styles from './Post.module.css'
 
@@ -6,13 +7,10 @@ export function Post() {
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img
-            className={styles.avatar}
-            src="https://pbs.twimg.com/profile_images/1776038729381019648/F6UoWHCB_400x400.jpg"
-          />
+            <Avatar hasBorder src="https://pbs.twimg.com/profile_images/1779720956740526080/cKWcz8vK_400x400.jpg" />     
           <div className={styles.authorInfo}>
-            <strong>John Nyan</strong>
-            <span>Amante de Streamer</span>
+            <strong>Gabriel Migliorini</strong>
+            <span>futuro DevOps</span>
           </div>
         </div>
 
@@ -23,8 +21,9 @@ export function Post() {
 
       <div className={styles.content}>
         <p>
-          Alguma <a href=""> #edzinha</a> para ir no Emo x Otakus hoje?
-        </p>
+          Aprendendo <a href=""> #kubernetes</a> hoje enquanto escuto Taylor Swift. 
+     
+        </p>   <p> eu vou com calma, um dia de cada vez, não importa quanto tempo demora!!</p>
       </div>
 
       <form className={styles.comment}>
