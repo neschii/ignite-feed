@@ -3,7 +3,7 @@
 
 
 **<h1 align="center"> Instalações ⚙️</h1>**
-<p align=center> React + Vite + Typescript </p>
+<p align=center> React + Vite + JavaScript </p>
 
 
 ```c
