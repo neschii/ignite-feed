@@ -1,6 +1,6 @@
 **<h1 align="center"> Ignite Feed 💻</h1>** 
-<p align="center"> by RocketSeat 🚀 </p>
-
+<p align="right"> by RocketSeat 🚀 </p>
+  
 
 **<h1 align="center"> Instalações ⚙️</h1>**
 <p align=center> React + Vite + JavaScript </p>
